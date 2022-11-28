@@ -1,0 +1,41 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\title{Heightmap correction}
+\begin{document}
+\section{The data}
+Each image is associated with a height map, which has been retrieved by applying \texttt{} to the actin channel (currently- check what the analysis was at the time of anayzing Exp0168).  Pixels in the 2D image are taken from the height indicated in the height map.  
+\begin{figure}
+\caption{Height map from time 436 in experiment 0168: a severely curved heightmap from late in the experiment.  Scaling of axes to scale.  The grid increments show $180 \times 180$ squares, scale of tiles in the Fourier space analysis for myosin orientation.}
+\end{figure}
+\section{metric and curvature}
+The data represents a graph above a plane.  Monge geometry applies.  The metric tensor/ first fundamental form can be calculated as.
+
+\begin{equation}
+\begin{aligned}
+\sqrt{g} &=  \sqrt{(1 + (\partial_x f)^2)(1 + (\partial_y f)^2)-(\partial_x f \partial_y f)^2}\\
+&\approx \sqrt{1 + (\partial_x f)^2 + (\partial_y f)^2}
+\end{aligned}
+\end{equation}
+
+
+\begin{figure}
+\caption{Metric determinant $\sqrt{g}$, indicating relative area represented by each pixel.}
+\end{figure}
+
+Curvature tensor
+
+Gaussian curvature
+
+Mean curvature
+
+\section{Fourier transform approach}
+\subsection{Tile level}
+Smoothing the height map to tile level, each tile is approximated as a stretched and sheared rectangle.  Height variations and the associated distortions in projected lengths within each tile are ignored.  This is valid if the lengthscale of height variations is greater than tile scale.
+\subsection{Mean metric?}
+\section{Is the height map the epithelial surface?}
+don't overcorrect for height fluctuations smaller than cell scale!
+\end{document}
