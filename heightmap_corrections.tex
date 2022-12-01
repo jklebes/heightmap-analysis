@@ -68,6 +68,19 @@ For curvature tensor/ second fundamental form, second derivatives are needed.  I
 Gaussian curvature
 
 Mean curvature
+\subsection{Conservation of Gaussian curvature}
+Total Gaussian curvature of a plane with constant boundary should be a constant.  If pixel-scale height map is coarsened to a tile-scale height mesh, Gaussian curvature will be concentrated in the vertices, where it will be lost to subsequent analysis.  However, since tiles are overlapping, we have a `disjointed' mesh of tiles and gaussian curvature is not conserved.
+\section{Result}
+\subsection{Exp0168}
+(Voxel dimension metadata needed - assuming voxels are cubic)
+
+Height steps are by 1 pixel.  Aggregate height differences are small compared to in-plane distances, see Fig 1.
+
+Some pixels are up to $1.1 \times$ bigger than other ones.  Based on just experiment 0168, it might not be worth correcting for this... ??  
+
+TODO Unclear how strongly nonlinear derived quantities are affected by this slight distortion.
+
+There are no problems with sub-cell-scale height fluctuations.
 
 \begin{figure}
 \begin{subfigure}{\textwidth}
@@ -98,6 +111,7 @@ There are no problems with sub-cell-scale height fluctuations.
 
 \section{Fourier transform approach}
 Smoothing the height map to tile level, each tile is approximated as a stretched and sheared rectangle.  Height variations and the associated distortions in projected lengths within each tile are ignored.  This is valid if the lengthscale of height variations is greater than tile scale.  
+
 \begin{figure}
 \begin{subfigure}{.65\textwidth}
 \includegraphics[width=\textwidth]{plane_smooth5.png}
@@ -116,6 +130,10 @@ In this example, Height differences between sides of the plane are $-2.66, 3.17$
 If instead the metric is taken into acount at pixel level (after initial smoothing $\sigma =5$), the `actual' area is $180 \sum \sqrt{|g|}(x_i, y_j) =32422 $ , projected to an apparent area of $180 \times 180 = 32400$ pixels.  In this route retrieving anisotropic stretching and skewing is less simlpe.
 \section{Anisotropy}
 Up to fitting an ellipse/measuring an inertia matrix in Fourier space and transforming back, the skewing and stretchign operation commutes and can equivalently be performed after the Fourier transform steps.  However, the final result, local anisotropy indicators \texttt{S} and \texttt{angS} are nonlinear (log) functions of the inertia matrix / fitted ellipse and can't simply be (un-)stretched.  For the ellipse-fitting method, 
+
+\subsection{Mean metric?}
+\section{Anisotropy}
+Up to fitting an ellipse/measuring an inertia matrix in Fourier space and transforming back, the skewing and stretchign operation commutes and can equivalently be performed after the Fourier transform steps.  However, the final result, local anisotropy indicators \texttt{t} and \texttt{angS} are nonlinear (log) functions of the inertia matrix / fitted ellipse and can't simply be (un-)stretched.  For the ellipse-fitting method, 
 \begin{equation}
 S = 1/2 \log(L_{maj}/L_{min});
 \end{equation}
