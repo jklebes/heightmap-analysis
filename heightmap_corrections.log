@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.29)  28 NOV 2022 12:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.29)  29 NOV 2022 09:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -143,42 +143,69 @@ File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 \Gin@req@height=\dimen150
 \Gin@req@width=\dimen151
 )
+(C:\Users\jklebes001\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption
+.sty
+Package: subcaption 2022/01/07 v1.5 Sub-captions (AR)
+
+(C:\Users\jklebes001\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.st
+y
+Package: caption 2022/03/01 v3.6b Customizing captions (AR)
+
+(C:\Users\jklebes001\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.s
+ty
+Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
+\caption@tempdima=\dimen152
+\captionmargin=\dimen153
+\caption@leftmargin=\dimen154
+\caption@rightmargin=\dimen155
+\caption@width=\dimen156
+\caption@indent=\dimen157
+\caption@parindent=\dimen158
+\caption@hangindent=\dimen159
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count271
+\c@continuedfloat=\count272
+)
+\c@subfigure=\count273
+\c@subtable=\count274
+)
 (C:\Users\jklebes001\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backen
 d-pdftex.def
 File: l3backend-pdftex.def 2022-09-28 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count271
+\l__color_backend_stack_int=\count275
 \l__pdf_internal_box=\box53
 ) (heightmap_corrections.aux)
 \openout1 = `heightmap_corrections.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
 
 (C:\Users\jklebes001\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-p
 df.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count272
-\scratchdimen=\dimen152
+\scratchcounter=\count276
+\scratchdimen=\dimen160
 \scratchbox=\box54
-\nofMPsegments=\count273
-\nofMParguments=\count274
+\nofMPsegments=\count277
+\nofMParguments=\count278
 \everyMPshowfont=\toks24
-\MPscratchCnt=\count275
-\MPscratchDim=\dimen153
-\MPnumerator=\count276
-\makeMPintoPDFobject=\count277
+\MPscratchCnt=\count279
+\MPscratchDim=\dimen161
+\MPnumerator=\count280
+\makeMPintoPDFobject=\count281
 \everyMPtoPDFconversion=\toks25
 )
 (C:\Users\jklebes001\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epsto
@@ -191,42 +218,68 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 12.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+<435_example2.png, id=1, 910.15031pt x 541.27219pt>
+File: 435_example2.png Graphic file (type png)
+<use 435_example2.png>
+Package pdftex.def Info: 435_example2.png  used on input line 18.
+(pdftex.def)             Requested size: 345.0pt x 205.1735pt.
+<435_flat.png, id=2, 856.1586pt x 589.2414pt>
+File: 435_flat.png Graphic file (type png)
+<use 435_flat.png>
+Package pdftex.def Info: 435_flat.png  used on input line 22.
+(pdftex.def)             Requested size: 345.0pt x 237.43665pt.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 25.
 
 
 (C:\Users\jklebes001\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 12.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 25.
 
 
 (C:\Users\jklebes001\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-[1{C:/Users/jklebes001/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
+Overfull \hbox (6.05615pt too wide) in paragraph at lines 57--58
+[]\OT1/cmr/m/n/10 For cur-va-ture ten-sor/ sec-ond fun-da-men-tal form, sec-ond
+ deriva-tives are needed.
+ []
 
-]
+[1
+
+{C:/Users/jklebes001/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+[2 <./435_example2.png (PNG copy)> <./435_flat.png (PNG copy)>] [3] [4]
 (heightmap_corrections.aux) ) 
 Here is how much of TeX's memory you used:
- 2567 strings out of 475385
- 39253 string characters out of 2774546
- 379394 words of memory out of 3000000
- 23953 multiletter control sequences out of 15000+600000
- 472336 words of font info for 41 fonts, out of 8000000 for 9000
+ 4024 strings out of 475385
+ 67584 string characters out of 2774546
+ 410524 words of memory out of 3000000
+ 25395 multiletter control sequences out of 15000+600000
+ 473279 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,7n,62p,401b,238s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 67i,8n,77p,776b,480s stack positions out of 10000i,1000n,20000p,200000b,80000s
 <C:/Users/jklebes001/AppData/Local/Programs/MiKTeX
-/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/jklebes001/AppData/Local/P
-rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/jklebes001/A
-ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/User
-s/jklebes001/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7
-.pfb><C:/Users/jklebes001/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
-onts/cm/cmr10.pfb><C:/Users/jklebes001/AppData/Local/Programs/MiKTeX/fonts/type
-1/public/amsfonts/cm/cmr7.pfb><C:/Users/jklebes001/AppData/Local/Programs/MiKTe
-X/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on heightmap_corrections.pdf (1 page, 81692 bytes).
+/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/jklebes001/AppData/Local/P
+rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/jklebes001/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/User
+s/jklebes001/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi1
+0.pfb><C:/Users/jklebes001/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmmi5.pfb><C:/Users/jklebes001/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmmi7.pfb><C:/Users/jklebes001/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/jklebes001/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/jklebes001/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/
+jklebes001/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pf
+b><C:/Users/jklebes001/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
+s/cm/cmsy10.pfb><C:/Users/jklebes001/AppData/Local/Programs/MiKTeX/fonts/type1/
+public/amsfonts/cm/cmsy5.pfb><C:/Users/jklebes001/AppData/Local/Programs/MiKTeX
+/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/jklebes001/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on heightmap_corrections.pdf (4 pages, 516240 bytes).
 PDF statistics:
- 41 PDF objects out of 1000 (max. 8388607)
+ 87 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
