@@ -10,3 +10,9 @@
 *.cb
 *.cb2
 .*.lb
+*.pdf
+*.synctex.gz
+
+*.tif
+*.tiff
+*.fig
